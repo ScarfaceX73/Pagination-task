@@ -1,0 +1,47 @@
+.user-list{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    align-items:center;
+}
+
+.obj-container
+{
+    padding:16px;
+    border-radius: 20px;
+    width:350px;
+    display:flex;
+    gap:10px;
+    background-color: whitesmoke;
+    border:1px solid black;
+    
+    
+}
+
+.obj-name
+{
+font-size:30px;
+color:black;
+}
+
+.obj-id
+{
+    color: black;
+    font-size:20px;
+}
+
+.obj-email
+{
+    color:black;
+    font-size:20px;
+}
+
+.pagination
+        {
+            display:flex;
+            flex-direction: row;
+            gap:10px;
+            margin:10px; 
+            justify-content: center;
+            
+        }
